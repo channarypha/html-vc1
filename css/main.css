@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    width: 100%;
+    height: 100%;
+    
 }
 nav{
     background:#342342;
@@ -20,3 +23,35 @@ ul li a{
     color: #fff;
     text-transform: uppercase;
 }
+img {
+    width: 100%;
+    height:100%;
+    /* border-radius: 50%; */
+
+
+  }
+  .content1{
+      margin-top: 25px;
+      display: flex;
+      width: 100%;
+      height: 100%;
+  }
+  .photo{
+      flex:50%;
+  }
+  .text{
+      flex:80%;
+      background-color: rgb(119, 177, 129);
+      display: flex;
+      align-items: center;
+  }
+  .content2,.content3,.content4{
+      width: 100%;
+      height: 90vh;
+  }
+  .content2 .about h1,.content3 h1,.content4 h1{
+      background:rgb(21, 88, 88);
+      padding: 20px;
+      color:#fff;
+  }
+  

@@ -4,54 +4,95 @@ body{
     font-family: sans-serif;
     width: 100%;
     height: 100%;
-    
 }
-nav{
-    background:#342342;
-    display: flex;
-    justify-content: space-between;
+.container1{
+    background-color: rgb(245, 245, 94);
+    padding: 10px;
+    text-transform: uppercase;
+}
+.container2{
+    background-color: rgb(253, 90, 90);
+    padding: 10px;
+    text-transform: uppercase;
+}
+.container3{
+    background-color: rgb(90, 252, 90);
+    padding: 10px;
+    text-transform: uppercase;
+}
+.container4{
+    background-color: pink;
+    padding: 10px;
+    text-transform: uppercase;
 }
 ul{
     display: flex;
-    list-style-type: none;
+    justify-content: flex-end;
 }
 ul li{
-    padding: 10px;
+    list-style: none;
 }
 ul li a{
     text-decoration: none;
-    color: #fff;
-    text-transform: uppercase;
+    padding: 10px;
+}
+li {
+    padding-left: 50px;
+}
+.photo2{
+    border-radius: 40%;
 }
 img {
     width: 100%;
     height:100%;
-    /* border-radius: 50%; */
+  }
+.content1,.content2,.container3,.container4{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.photo2{
+    flex:50%;
+    border-radius: 50%;
+}
+.text{
+    flex:80%;
+    background-color: rgb(119, 177, 129);
+    display: flex;
+    align-items: center;
+    font-size: bold;
+}
 
-
-  }
-  .content1{
-      margin-top: 25px;
-      display: flex;
-      width: 100%;
-      height: 100%;
-  }
-  .photo{
-      flex:50%;
-  }
-  .text{
-      flex:80%;
-      background-color: rgb(119, 177, 129);
-      display: flex;
-      align-items: center;
-  }
-  .content2,.content3,.content4{
-      width: 100%;
-      height: 90vh;
-  }
-  .content2 .about h1,.content3 h1,.content4 h1{
-      background:rgb(21, 88, 88);
-      padding: 20px;
-      color:#fff;
+/* contact form */
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
   }
   
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    width: 50%;
+    height: 30vh;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }

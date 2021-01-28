@@ -36,8 +36,10 @@ li {
     padding-left: 50px;
 }
 .content{
+    margin-top: 70px;
     display: flex;
     justify-content: space-around;
+
 }
 .photo2{
     border-radius: 40%;

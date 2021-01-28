@@ -7,7 +7,8 @@ body{
     font-family: sans-serif;
     width: 100%;
     height: 180vh;
-    background-image: url("../image/teamwork.jpg");
+    /* background-image: url("../image/teamwork.jpg"); */
+    background-color: rgb(132, 235, 132,0.3);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

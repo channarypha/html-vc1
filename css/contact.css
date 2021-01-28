@@ -8,6 +8,7 @@ body{
     width: 100%;
     height: 120vh;
     background-image: url("../image/ass.jpg");
+
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

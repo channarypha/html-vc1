@@ -34,9 +34,12 @@ ul li a{
 li {
     padding-left: 50px;
 }
-.photo2{
-    border-radius: 40%;
-       
+.img{
+    border-radius: 40%;     
+}
+.content2{
+    margin-top: 50px;
+    display: flex;
 }
 
 

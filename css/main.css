@@ -6,13 +6,14 @@ body{
     
     font-family: sans-serif;
     width: 100%;
-    height: 480vh;
-    /* background-image: url("../image/teamwork.jpg"); */
+    height: auto;
+    background-image: url("../image/bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
-img{
+.nary, .girl1, .girl2, .girl3{
     border-radius: 50%;
 }
 
@@ -23,23 +24,26 @@ img{
 }
 .contentHome{
   width: 100%;
-  height: 100vh;
+  height: 500px;
+  background-color: rgba(82, 207, 149, 0.575);
   margin: 0px;
   text-transform: uppercase;
   position: fixed;
   top: 0%; 
-  overflow: hidden;
+  /* overflow: hidden; */
   /* background-color: #333;  */
 }
-.content1{
+/* .content1{
   display: flex;
   margin-top: 100px;
-}
+} */
 ul{
+  margin: 30px;
+  font-size: 30px;
   display: flex;
   justify-content: flex-end;
-  background-color: rgba(87, 241, 120, 0.5);
-  padding: 25px;   
+ 
+  /* padding: 240px;    */
 }
 ul li{
   list-style: none;
@@ -49,14 +53,33 @@ ul li a{
   padding: 10px;
 }
 ul li a:hover{
-  color: ##000;
-li {
+  color: #000;
+}
+li{
   padding-left: 50px;
+}
+
+.content1{
+  width: 30%;
+  margin-left: 5%;
+  text-align: center;
+  display: grid;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin-top: 50px;
+}
+.content1 h1,h3,h4{
+  margin: 20px;
+  
 }
 
 /* resume */
 .resume{
   height: 120vh;
+  display: flex;
+  margin-top: 100px;
 }
 .photo2{
   margin-top: 200px;
@@ -79,19 +102,27 @@ li {
     height: 120vh;
 }
 .contentContact{
+  width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 .container{
-    width: 100%;
-    margin-top: 100px;
+    width: 50%;
+    /* margin-left: 100px; */
     display: flex;
     background-color: hotpink;
     height: 70vh;
 }  
-input[type=text]{
-    width: 100%;
+form{
+  margin-left: 50px;
+  width: 100%;
+}
+input{
+  width: 95%;
+}
+input[type="text"],input[type="email"],input[type="text"],input[type="submit"]{
+    
     padding: 12px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
@@ -99,26 +130,23 @@ input[type=text]{
     box-sizing: border-box;
 }
   
-input[type=submit] {
-    width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+input[type="submit"]{
+  background: rgb(91, 158, 89);
 }
-    
+textarea{
+  width: 95%;
+}   
 
 
 /* map */
 .map{
-    width: 40%;
-    margin-top: 100px;
+    width: auto;
+    margin-top: 300px;
     margin-left: 100px;
-    height: 80vh;
+    height: 100vh;
 }
+iframe{width: 800px;
+height: 70%;}
 /* app */
 .app{
     margin-top: 100px;

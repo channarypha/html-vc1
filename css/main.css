@@ -32,12 +32,13 @@ img{
   /* background-color: #333;  */
 }
 .content1{
+  display: flex;
   margin-top: 100px;
 }
 ul{
   display: flex;
   justify-content: flex-end;
-  background-color: rgba(144, 235, 247, 0.5);
+  background-color: rgba(87, 241, 120, 0.5);
   padding: 25px;   
 }
 ul li{
@@ -47,14 +48,11 @@ ul li a{
   text-decoration: none;
   padding: 10px;
 }
+ul li a:hover{
+  color: ##000;
 li {
   padding-left: 50px;
 }
-.text{
-  margin-left: 20%;
-  
-} 
-
 
 /* resume */
 .resume{

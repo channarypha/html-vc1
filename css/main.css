@@ -4,7 +4,7 @@
 }
 body{
     
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     width: 100%;
     height: auto;
     background-image: url("../image/bg.jpg");
@@ -26,6 +26,9 @@ body{
   background-color: rgba(82, 207, 149, 0.575);
   font-family: 'Josefin Sans', sans-serif;
 
+}
+#color{
+  background-color: #ff5700;
 }
 .contentHome{
   width: 100%;
@@ -70,7 +73,7 @@ li{
   display: grid;
   font-family: 'Josefin Sans', sans-serif;
   font-weight: bolder;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 50px;
   margin-top: 50px;
 }

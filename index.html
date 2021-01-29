@@ -5,25 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML-VIRTUAL COMPANY1</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <!-- menu -->
-    <div class="container1">
-        <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="resume.html">resume</a></li>
-            <li><a href="project.html">project</a></li>
-            <li><a href="contact.html">contact</a></li>
-        </ul>    
+    <!-- index -->
+    <div class="home">
+        <div class="contentHome">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#resume">resume</a></li>
+                <li><a href="#project">project</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>   
+        </div>
+        <div class="content1">
+            <div class="photo1">
+                <img src="image/nary.jpg" alt="Paris" width="300" height="300">
+            </div>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ratione aliquam esse error rerum atque in totam nemo pariatur modi quia est alias reiciendis similique inventore commodi facere, nihil praesentium assumenda cupiditate id architecto. Veritatis delectus ipsam laudantium placeat, labore neque corporis nostrum nemo dicta debitis. Dolores consectetur commodi quo laudantium illo officia adipisci explicabo necessitatibus quam aliquid porro alias, maxime cum optio. Earum laudantium veritatis at error voluptatum molestias sint nulla deserunt fugiat nisi eligendi veniam quibusdam dicta inventore, commodi similique porro consequuntur reprehenderit. Exercitationem, expedita quae quos reprehenderit enim perspiciatis voluptas distinctio consequuntur fuga, obcaecati nihil voluptates.</p>
+            </div>
+        </div> 
     </div>
-    <div class="content1">
-        <div class="photo1">
-            <img src="image/nary.jpg" alt="Paris" width="300" height="300">
+    <!-- resume -->
+    
+    <div class="resume" id="resume">
+        <div class="photo2">
+            <img src="image/experience.jpg" alt="Paris" width="300" height="300">
         </div>
         <div class="text">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea adipisci ratione aliquam esse error rerum atque in totam nemo pariatur modi quia est alias reiciendis similique inventore commodi facere, nihil praesentium assumenda cupiditate id architecto. Veritatis delectus ipsam laudantium placeat, labore neque corporis nostrum nemo dicta debitis. Dolores consectetur commodi quo laudantium illo officia adipisci explicabo necessitatibus quam aliquid porro alias, maxime cum optio. Earum laudantium veritatis at error voluptatum molestias sint nulla deserunt fugiat nisi eligendi veniam quibusdam dicta inventore, commodi similique porro consequuntur reprehenderit. Exercitationem, expedita quae quos reprehenderit enim perspiciatis voluptas distinctio consequuntur fuga, obcaecati nihil voluptates.
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium perspiciatis sapiente neque quidem autem, dolorum quasi sint, delectus sunt doloribus eius vitae facilis eum repellat. Earum mollitia vel eius illo.
             </p>
         </div>
     </div> 
+    <!-- project -->
+    <div class="project" id="project">
+        <div class="photo3">
+            <img src="image/girl.jpg" alt="Paris" width="300" height="300">
+        </div>
+         <div class="text">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium perspiciatis sapiente neque quidem autem, dolorum quasi sint, delectus sunt doloribus eius vitae facilis eum repellat. Earum mollitia vel eius illo.
+            </p>
+        </div>
+    </div> 
+    <!-- contact -->
+    <div class="contact" id="contact">
+        <div class="contentContact">
+            <div class="container">
+                <form action="">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name"><br>
+                    <label for="email">E-mail</label><br>
+                    <input type="email" name="email" id="email"><br>
+                    <label for="message">Message</label><br>
+                    <textarea type="message" name="message" id="message" style="height:200px ;"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        
+            <div class="map" >
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26296.252797692367!2d104.87871386171146!3d11.554627401553903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x310951add5e2cd81%3A0x171e0b69c7c6f7ba!2sPasserelles%20Num%C3%A9riques%20Cambodia%20(PNC)!5e0!3m2!1sen!2skh!4v1611746575276!5m2!1sen!2skh" width="700" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer>
+            <!-- app -->
+            <div class="app">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-reddit"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-skype"></a>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

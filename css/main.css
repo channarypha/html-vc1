@@ -6,27 +6,40 @@ body{
     
     font-family: sans-serif;
     width: 100%;
-    height: 180vh;
+    height: 480vh;
     /* background-image: url("../image/teamwork.jpg"); */
     background-color: rgb(132, 235, 132,0.3);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
 }
-.container1{
-    
-    text-transform: uppercase;
-    height: 6%;
-    margin: 0px;
-    
+img{
+    border-radius: 50%;
+    margin-left: 30%;
 }
 
+
+/* home */
+.home{
+    height: 120vh;
+}
+.contentHome{
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
+    text-transform: uppercase;
+    position: fixed;
+    top: 0%;  
+}
+.content1{
+    margin-top: 100px;
+}
 ul{
+
     display: flex;
     justify-content: flex-end;
     background-color: rgba(144, 235, 247, 0.5);
-    padding: 30px;
-    
+    padding: 25px;   
 }
 ul li{
     list-style: none;
@@ -38,17 +51,139 @@ ul li a{
 li {
     padding-left: 50px;
 }
-.content1{
-    display: flex;
-    margin-top: 100px;
-}
+
 .text{
     margin-left: 20%;
+} 
+
+
+/* resume */
+.resume{
+    height: 120vh;
 }
-img{
-    border-radius: 50%;
-    margin-left: 30%;
+.photo2{
+    margin-top: 200px;
 }
+
+
+/* project */
+.project{
+    height: 120vh;
+}
+.photo3{
+    margin-top: 200px;
+}
+
+
+/* contact */
+.contact{
+    margin-top: 200px;
+    height: 120vh;
+}
+.contentContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.container{
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    background-color: hotpink;
+    height: 70vh;
+}
+input{
+    width: 100%;
+    height: 30px;
+}
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+    
+
+/* map */
+.map{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 80vh;
+}
+/* app */
+.app{
+    margin-top: 100px;
+    margin-bottom:10px ;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+   
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+  }
+  .sky{
+      border-radius: 20px;
+      background:#E6E6FA;
+      color:#2F4F4F;
+      height: 40px;
+      width: 220px;
+      font-size: 20px;
+  }
+  .sky:hover{
+      cursor: pointer;
+      background:	#C71585;
+      color:#FFFF00;
+  }
+  .text1{
+      margin-left: 60px;
+  }
+  /* footer */
+  footer{
+      margin-top: 115px;
+      height: 20vh;
+      background-color: gray;
+  }
 
 
 

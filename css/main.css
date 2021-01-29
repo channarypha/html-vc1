@@ -37,10 +37,12 @@ body{
   text-transform: uppercase;
   position: fixed;
   top: 0%; 
+  display: flex;
   /* overflow: hidden; */
   /* background-color: #333;  */
 }
-/* .content1{
+/* pnc logo */
+.content1{
   display: flex;
   margin-top: 100px;
 } */

@@ -129,9 +129,15 @@ a img{
 /* project */
 .project{
     height: 120vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+
 }
-.photo3{
-    margin-top: 200px;
+.project p{
+  font-size: 25px;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 

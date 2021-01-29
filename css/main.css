@@ -111,13 +111,19 @@ li{
 .nary h3{
   font-size: 35px;
 }
+/* cv */
 .cv{
-  background-color: #C71585;
-  width: 40%;
+  background-color: #f584ff;
+  width: 60%;
   height: 600px;
   margin-top: 100px;
   margin-left: 128px;
   font-size: 30px;
+}
+a img{
+  width: 300px;
+  margin-left: 475px;
+  margin-top: 100px;
 }
 /* project */
 .project{

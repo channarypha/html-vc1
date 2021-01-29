@@ -23,7 +23,7 @@ body{
     height: 120vh;
 }
 .menuBit{
-  background-color: rgba(82, 207, 149, 0.575);
+  background-color: rgba(82, 207, 149, 0.3);
   font-family: 'Josefin Sans', sans-serif;
 
 }
@@ -71,15 +71,17 @@ li{
   margin-left: 5%;
   text-align: center;
   display: grid;
-  font-family: 'Josefin Sans', sans-serif;
+  /* font-family: 'Josefin Sans', sans-serif; */
   font-weight: bolder;
   /* text-transform: uppercase; */
   font-size: 50px;
   margin-top: 50px;
+  font-family: 'Poppins', sans-serif;
 }
 .backgroundBit{
   background-color: rgb(59, 129, 175,0.3);
   margin-top: 100px;
+  padding: 50px;
 }
 .content1 h1,h3,h4{
   margin: 20px;
@@ -109,17 +111,17 @@ li{
 
 /* contact */
 .contact{
-    margin-top: 200px;
+    /* margin-top: 100px; */
     height: 120vh;
 }
 .contentContact{
-  width: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 } 
 .container{
-    width: 50%;
+    width: 35%;
     /* margin-left: 100px; */
     display: flex;
     background-color: rgb(80, 78, 79);
@@ -128,13 +130,14 @@ li{
 form{
   margin-left: 50px;
   width: 100%;
+  font-size: 30px;
 }
 input{
   width: 95%;
 }
 input[type="text"],input[type="email"],input[type="text"],input[type="submit"]{
     
-    padding: 12px 20px;
+    padding: 25px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -155,9 +158,13 @@ textarea{
     margin-top: 300px;
     margin-left: 100px;
     height: 100vh;
+    
 }
-iframe{width: 800px;
-height: 70%;}
+iframe{
+  width: 800px;
+  height: 70%;
+  border-radius: 50%;
+}
 /* app */
 .app{
     display: flex;

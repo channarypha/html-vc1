@@ -84,7 +84,8 @@ li{
   padding: 50px;
 }
 .content1 h1,h3,h4{
-  margin: 20px;
+  margin: 10px;
+  
   
 }
 
@@ -152,7 +153,7 @@ a img{
     /* margin-left: 100px; */
     display: flex;
     background-color: rgb(80, 78, 79);
-    height: 70vh;
+    height: 80vh;
 }  
 form{
   margin-left: 50px;
@@ -173,6 +174,7 @@ input[type="text"],input[type="email"],input[type="text"],input[type="submit"]{
   
 input[type="submit"]{
   background: rgb(91, 158, 89);
+  font-size: 30px;
 }
 textarea{
   width: 95%;

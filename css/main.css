@@ -22,10 +22,13 @@ body{
 .home{
     height: 120vh;
 }
+.menuBit{
+  background-color: rgba(82, 207, 149, 0.575);
+
+}
 .contentHome{
   width: 100%;
   height: 500px;
-  background-color: rgba(82, 207, 149, 0.575);
   margin: 0px;
   text-transform: uppercase;
   position: fixed;
@@ -38,7 +41,7 @@ body{
   margin-top: 100px;
 } */
 ul{
-  margin: 30px;
+  padding: 30px;
   font-size: 30px;
   display: flex;
   justify-content: flex-end;

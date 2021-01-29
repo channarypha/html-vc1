@@ -153,19 +153,19 @@ a img{
     /* margin-left: 100px; */
     display: flex;
     background-color: rgb(80, 78, 79);
-    height: 80vh;
+    height: 65vh;
 }  
 form{
   margin-left: 50px;
   width: 100%;
-  font-size: 30px;
+  font-size: 20px;
 }
 input{
   width: 95%;
 }
 input[type="text"],input[type="email"],input[type="text"],input[type="submit"]{
     
-    padding: 25px 20px;
+    padding: 15px 20px;
     margin: 8px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -174,7 +174,7 @@ input[type="text"],input[type="email"],input[type="text"],input[type="submit"]{
   
 input[type="submit"]{
   background: rgb(91, 158, 89);
-  font-size: 30px;
+  font-size: 20px;
 }
 textarea{
   width: 95%;
